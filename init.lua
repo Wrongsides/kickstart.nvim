@@ -164,6 +164,10 @@ vim.opt.scrolloff = 10
 -- Disable line wrap
 vim.o.wrap = false
 
+-- Enable spell
+vim.opt.spelllang = 'en_gb'
+vim.opt.spell = true
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
